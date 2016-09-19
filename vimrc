@@ -56,3 +56,9 @@ let g:airline#extensions#tabline#enabled=1
 set ttimeoutlen=10
 set laststatus=2
 set noshowmode
+
+" syntastic config
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_enable_balloons = 0
+
