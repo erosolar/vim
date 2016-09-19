@@ -1,3 +1,6 @@
+" add pathogen plugins
+execute pathogen#infect()
+
 filetype on
 syntax on
 colorscheme Tomorrow-Night-Bright
@@ -12,6 +15,7 @@ set hidden
 set history=100
 
 filetype indent on
+filetype plugin on
 set nowrap
 set tabstop=4
 set shiftwidth=4
@@ -19,12 +23,17 @@ set expandtab
 set smartindent
 set autoindent
 
-autocmd BufWritePre * :%s/\s\+$//e
-
 set hlsearch
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+set incsearch
 
 nnoremap <Leader><Leader> :e#<CR>
 
 set showmatch
 
+set backspace=2
+
+au BufWinLeave *.* mkview
+au BufWinEnter *.* loadview
+au BufWinEnter *.* syntax sync fromstart
+
+" pathogen plugin configurations
