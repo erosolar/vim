@@ -49,4 +49,16 @@ set noshowmode
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_balloons = 0
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
+" vim-go config
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+
 
