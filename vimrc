@@ -60,5 +60,8 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
-
-
+" ctrlp config
+let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_open_new_file = 'r'
+let g:ctrlp_open_multiple_files = 'i'
+nnoremap <Leader>b :CtrlPBuffer<CR>
