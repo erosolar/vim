@@ -32,6 +32,7 @@ set showmatch
 set showcmd
 
 set backspace=2
+set mouse=a
 
 au BufWinLeave *.* mkview
 au BufWinEnter *.* loadview
