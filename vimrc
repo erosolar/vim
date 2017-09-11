@@ -1,5 +1,6 @@
 " add pathogen plugins
 execute pathogen#infect()
+execute pathogen#helptags()
 
 filetype on
 syntax on
