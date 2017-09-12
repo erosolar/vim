@@ -25,3 +25,6 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/coq.vim"]
+	path = bundle/coq.vim
+	url = https://github.com/jvoorhis/coq.vim.git
