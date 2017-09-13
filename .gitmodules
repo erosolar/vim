@@ -28,3 +28,6 @@
 [submodule "bundle/coq.vim"]
 	path = bundle/coq.vim
 	url = https://github.com/jvoorhis/coq.vim.git
+[submodule "bundle/vim-surround"]
+    path = bundle/vim-surround
+    url = https://github.com/tpope/vim-surround.git
